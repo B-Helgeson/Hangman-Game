@@ -4,19 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="javascript/game.js"></script>
 
-    <title>Document</title>
+    <title>SCUBA Hangman</title>
 </head>
 
 <body>
-    
-<h1>Hang Man</h1>
 
 
 
+    <header>
+        <h1>Hang Man:</h1>
+        <h3>Marine Edition</h3>
+    </header>
+
+
+
+    <div id="main-container" class="container">
+        <div class="row">
+
+            <div class="col-sm-7">
+                <section class="diverBox">
+                    <img id="diverGuy" src="images/diverGuy.png" alt="diver">
+                </section> <!-- diverBox -->
+            </div> <!-- col-sm-6 -->
+
+
+            <div class"col-sm-5"></div>
+                <section class="gameBox">
+                    
+                    <p>Press any Key to Get Started</p>
+
+                    <div class="scoreBoard">
+                        
+                                <div id="wins">
+                                    <h4>Wins: <span class="badge">0</span></h4>
+                                </div> <!-- wins -->
+                                                
+                                <div id="losses">
+                                    <h4>Losses: <span class="badge">0</span></h4>
+                                </div> <!-- losses -->
+
+                    </div> <!-- scoreBoard -->
+
+                    <div class="guessBox">
+
+                        <div id="currentWord">
+                            <strong>Current Word</strong>
+                            <p>_ _ _ _ _ _ _</p>
+                        </br>
+                        </div> <!-- currentWord -->
+
+                        <div id="guessesRemaining">
+                            <p>Number of Guesses Remaining:</p>
+                            <p> ## </p>
+                        </div> <!-- guessesRemaining -->
+
+                        <div id="lettersGuessed">
+                            <p>Letters Already Guessed:</p>
+                            <p>A,B,C,D,E</p>
+                        </div> <!-- lettersGuessed -->
+
+                    </div> <!-- guessBox -->
+
+                 </section> <!-- gameBox -->
+            </div> <!-- col-sm-6 -->
+        </div> <!-- row -->
 
 </body>
 
