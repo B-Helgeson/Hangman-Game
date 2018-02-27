@@ -55,7 +55,8 @@ Counters
 Variables
     Keystrokes
     LettersGuessed
-    
+    Word List
+
 
 
 
