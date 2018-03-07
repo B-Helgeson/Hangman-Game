@@ -58,5 +58,9 @@ Variables
     Word List
 
 
+#Helpful Notes:
+Managing Array: research indexOf to get  you the one you want to remove...then research .splice to remove it
+    indexof can be used to call out specific location of a letter within a word
+    splice can be used to remove a specific letter from the word array, or perhaps remove the word from the list of words. 
 
 
